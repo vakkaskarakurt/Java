@@ -39,9 +39,9 @@ public class DataTypes {
 
         System.out.println("Total: " + num4);
 
+        System.out.println(((Object) num4).getClass().getName());
 
-
-
+        
 
     }
 }
